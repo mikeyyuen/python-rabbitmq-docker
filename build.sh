@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t mikeyyuen/python-rabbit:3.5 .
+docker build -t mikeyyuen/python-rabbitmq:3.5 .
 
