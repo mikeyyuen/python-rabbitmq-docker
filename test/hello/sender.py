@@ -1,7 +1,7 @@
 import pika
 
 credentials = pika.PlainCredentials('admin', 'PLdiJeduXtPc7M')
-parameters  = pika.ConnectionParameters(host='rabbitmq.slipstream-test.com', port=5672, 
+parameters  = pika.ConnectionParameters(host='db.slipstream-test.com', port=5672, 
                                         virtual_host='/', 
                                         credentials=credentials,
                                         ssl=True)
